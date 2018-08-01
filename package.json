@@ -1,0 +1,36 @@
+{
+  "name": "ReactMaterialUISeed",
+  "version": "1.0.0",
+  "description": "a react material ui seed project",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "1.2.1",
+    "@material-ui/icons": "1.1.0",
+    "@material-ui/lab": "^1.0.0-alpha.7",
+    "axios": "^0.18.0",
+    "classnames": "2.2.6",
+    "echarts-for-react": "^1.4.4",
+    "lodash": "^4.17.10",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-router-dom": "4.3.1",
+	"react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zj-john/ReactMaterialUISeed.git"
+  },
+  "keywords": ["react", "material","seed"],
+  "author": "zj_john",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zj-john/ReactMaterialUISeed/issues"
+  },
+  "homepage": ""
+}
