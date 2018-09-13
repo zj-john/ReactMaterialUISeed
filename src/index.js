@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {createBrowserHistory} from "history";
+import {createHashHistory} from "history";
 import {Router, Route, Switch} from "react-router-dom";
 import "assets/css/global.css";
 import indexRoutes from "routes/index.jsx";
@@ -9,7 +9,7 @@ import theme from "layouts/Theme/Theme.jsx";
 // userInfo
 import {UserContext} from 'UserContext.js';
 
-const hist = createBrowserHistory();
+const hist = createHashHistory();
 
 class App extends React.Component {
     constructor(props) {
